@@ -1,0 +1,17 @@
+{
+  "name": "v-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm link"
+  },
+  "bin": {
+    "v-cli": "dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.15.1",
+  }
+}
